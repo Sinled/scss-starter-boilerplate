@@ -1,0 +1,82 @@
+// # colors
+
+// ## Colors:palette;
+$c-white: #fff;
+$c-wild-sand: #F6F6F6;
+$c-mercury: #e5e4e3;
+$c-black-haze: #f6f6f8;
+$c-red: #f00;
+$c-crimson: #e11931;
+$c-fresh-eggplant: #800080;
+$c-curious-blue: #337ab7;
+$c-science-blue: #06c;
+$c-bahama-blue: #23527c;
+$c-congo-brown: #583d3e;
+$c-black: #000;
+$c-cod-gray: #1e1e1e;
+$c-onyx: #101010;
+
+
+// ## Colors:text;
+$c-base-color: $c-black;
+$c-base-inverse-color: $c-white;
+$c-base-accent-color: $c-crimson;
+$c-base-mark-color: $c-crimson;
+$c-base-link-color: $c-curious-blue;
+$c-base-link-hover-color: $c-bahama-blue;
+$c-base-link-active-color: $c-bahama-blue;
+$c-base-link-visited-color: $c-fresh-eggplant;
+$c-base-link-focus-color: $c-science-blue;
+
+// ## Colors:backgrounds;
+$base-background: $c-onyx;
+$second-background: $c-black-haze;
+
+// ## Colors:selection;
+$selection-bg: $c-science-blue;
+$selection-color: $c-wild-sand;
+
+
+// # Margins/paddings
+$base-padding: 1rem;
+
+// # Animations
+$default-transition-property: all;
+$default-transition-duration: .3s;
+$default-transition-function: ease;
+$default-transition-delay: false;
+
+// # Z-index stack
+
+$z-index-lvl-0: 0;
+$z-index-lvl-1: 10;
+$z-index-lvl-2: 20;
+$z-index-lvl-3: 30;
+$z-index-lvl-4: 40;
+$z-index-lvl-5: 50;
+$z-index-lvl-6: 60;
+$z-index-lvl-7: 70;
+$z-index-lvl-8: 80;
+$z-index-lvl-9: 90;
+$z-index-lvl-10: 100;
+
+// # Fonts
+
+$base-font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+$ubuntu-font-family: 'Roboto Condensed', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+
+$small-font-size: 10px;
+$medium-font-size: 14px;
+$default-font-size: 14px;
+
+$base-font-size: 1.6rem;
+$base-line-height: 1.5;
+$vertycal-rhythm-offset: $base-font-size * $base-line-height;
+$base-font: #{$base-font-size}/#{$base-line-height} $ubuntu-font-family;
+
+// # Content
+$content-maw: 100rem;
+$content-miw: 1000px;
+
+
+// # Breakpoints
